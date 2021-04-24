@@ -64,7 +64,38 @@ After processing the data for analysis, it was time to start the analyze phase.
 
 # Analyze
 
+To answer the question - "How does member and casual users differ?" I had to compare their trip total duration, total distance, average duration and average distance.
 
+After comparing these data it was surprising to note that even though the annual members were using the bikes more frequently (Total # of trip counts), it was the casual members who spent more time riding the bikes.
+
+This fact, lead me to think that there could be two reasons for casual users to spend more time riding -
+1. Either the distance is more
+2. Or they are riding slower
+
+To find the answer, I decided to find the average trip duration for casual users and member users, which turned out to be similar. This proved, that casual users were riding slower (or they were making frequent stops before they reached their destination). This is hypothetically possible if they are riding for the leisure as compared to the members who could be riding with some purpose or with some urgency.
+
+A trend analysis showed that July-September saw the highest number of users taking bike rides gradually decreasing as we reached february month. However before we can confirm that this is a cyclical trend (occurring every year), we need more (older) data which is out of scope for the current study.
+
+Another key question I attempted to solve was on which day and time of the week are users taking more rides? This analysis revealed that member users start riding earlier than the casual users who typically start in the evening around 6PM. Also it was evident that there was a clear trend in both types of user to use bikes more as they approach the weekend (peaking on the Saturday). This is another information which could be useful if we wish to run any targetted campaign or customer survey.
+
+Apart from this, it was interesting find maximum trip duration, maximum trip distance, round trip calcuations (start and end location are same), preference for the bike types and the comparison of ride duration distribution. Most of the members take rides which is less than 15 minutes duration where as most of the casual users ride between 15 mins to 1 hour.
+
+# Share
+
+After analyzing the data in detail, it was the time to share the analysis in engaging way with the stakeholders. For this reason, I created a dashboard in the Tableau which combined each of the above analysis in a nice story telling manner.
+
+Dashboard for the above analysis is available online on my Tableau public [profile](https://public.tableau.com/profile/jamesbond#!/vizhome/Case_Study_1_16190131371450/Dashboard1)
+
+# Act
+
+Based on the above data analysis, here are the 3 top recommendations to the stakeholder -
+1. Schedule a marketing campaign on Saturday and Sunday between 10AM to 7PM where most of the casual members are using the service so that the campaign is effective.
+2. Since it is now known that casual riders are riding for longer duration, adapt the marketing strategy such that it takes this finding into account. e.g. Company can highlight this finding to the casual customers to make them aware that they are already using the service for longer duration so why not benefit more by becoming the annual members. 
+3. Since it can be seen that casual users are taking ride mainly for liesure, marketing team can come up with some annual membership offers around the leisure activities/locations so that casual users can be converted to annual members.
+4. Company can anticipate the surge in demand during the month of July-September. However we need more data to confirm this trend.
+5. Company must investigate why some of the station names/Id are missing from the data. Add the missing data for more accurate insights.
+6. Company must investigate why some of the trip has duration in negative. Fix/improve the data collection as needed.
+7. The fact that Docked bikes has the highest trip count is a matter of investigation. Is it that most customers are forgetting to end the trip or the docking process is not easy which makes the users leave the bikes without ending the trip.
 
 
 
