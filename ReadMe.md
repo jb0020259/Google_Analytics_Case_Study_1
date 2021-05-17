@@ -2,7 +2,7 @@
 
 # ASK
 
-### Business Task (Goal of the data analysis) - How do annual members and casual riders use Cyclistic bikes dierently?
+### Business Task (Goal of the data analysis) - How do annual members and casual riders use Cyclistic bikes dierently?  
 
 Answer to the above question will help company understand the key differences in their customer behaviors and adapt a marketing strategy targetted towards casual members such that they can be converted into a annual members.
 
